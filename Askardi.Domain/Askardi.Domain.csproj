@@ -41,17 +41,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Argument\User\AuthUserRequest.cs" />
+    <Compile Include="Argument\User\AuthUserResponse.cs" />
+    <Compile Include="Argument\User\AddUserResponse.cs" />
+    <Compile Include="Argument\User\AddUserRequest.cs" />
     <Compile Include="Entity\Level.cs" />
     <Compile Include="Entity\ProfileLevel.cs" />
     <Compile Include="Entity\Profile.cs" />
     <Compile Include="Entity\User.cs" />
     <Compile Include="Entity\UserProfile.cs" />
     <Compile Include="Enum\EUserType.cs" />
+    <Compile Include="Interface\Argument\IResponse.cs" />
+    <Compile Include="Interface\Argument\IRequest.cs" />
+    <Compile Include="Interface\Service\IUserService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\UserService.cs" />
     <Compile Include="ValueObjects\Email.cs" />
     <Compile Include="ValueObjects\Name.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Interface\Repository\" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Diagram\Askardi.cd" />
   </ItemGroup>
