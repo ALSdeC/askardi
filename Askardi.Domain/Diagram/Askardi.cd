@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Askardi.Domain.Entity.Level">
+    <Position X="6" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAgAAAAQAA=</HashCode>
+      <FileName>Entity\Level.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Askardi.Domain.Entity.Profile">
+    <Position X="3.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAQAA=</HashCode>
+      <FileName>Entity\Profile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Askardi.Domain.Entity.ProfileLevel">
+    <Position X="4.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAABABAAgAAAAAA=</HashCode>
+      <FileName>Entity\ProfileLevel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Profile" />
+      <Property Name="Level" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Askardi.Domain.Entity.User">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAAAAAAAAAAAQABAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Entity\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Askardi.Domain.Entity.UserProfile">
+    <Position X="2" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Entity\UserProfile.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="User" />
+      <Property Name="Profile" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
